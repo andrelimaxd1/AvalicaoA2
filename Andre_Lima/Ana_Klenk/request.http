@@ -1,0 +1,52 @@
+###  CADASTRAR LIVRO
+
+POST http://localhost:5161/api/livro/cadastrar
+Content-Type: application/json
+
+{
+  "nome": "Green Code",
+  "autor": "Robert C. Martin",
+  "criadoEm": "2026-10-20T19:00:00"
+}
+
+### CADASTRO ADICIONAL
+POST http://localhost:5161/api/livro/cadastrar
+Content-Type: application/json
+
+{
+  "nome": "Domain-Driven Design",
+  "autor": "Eric Evans",
+  "criadoEm": "2026-10-20T19:10:00"
+}
+
+###  LISTAR TODOS OS LIVROS
+
+GET http://localhost:5161/api/livro/listar
+
+
+###  BUSCAR LIVRO POR NOME
+
+GET http://localhost:5161/api/livro/buscar/xd
+
+
+###  EMPRESTAR LIVRO
+
+
+PUT http://localhost:5161/api/livro/emprestar/3
+
+
+###  DEVOLVER LIVRO
+
+PUT http://localhost:5161/api/livro/devolver/3
+
+
+
+### LISTAR LIVROS DISPONÍVEIS
+
+GET http://localhost:5161/api/livro/disponiveis
+
+
+
+###  LISTAR LIVROS EMPRESTADOS
+
+GET http://localhost:5161/api/livro/emprestados
