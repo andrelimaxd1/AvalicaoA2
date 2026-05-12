@@ -26,18 +26,18 @@ GET http://localhost:5161/api/livro/listar
 
 ###  BUSCAR LIVRO POR NOME
 
-GET http://localhost:5161/api/livro/buscar/xd
+GET http://localhost:5161/api/livro/buscar/Green Code
 
 
 ###  EMPRESTAR LIVRO
 
 
-PUT http://localhost:5161/api/livro/emprestar/3
+PUT http://localhost:5161/api/livro/emprestar/2
 
 
 ###  DEVOLVER LIVRO
 
-PUT http://localhost:5161/api/livro/devolver/3
+PUT http://localhost:5161/api/livro/devolver/2
 
 
 
